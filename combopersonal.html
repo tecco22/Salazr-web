@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compra en la Pollería</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container my-5">
+    <h1 class="text-center mb-4">Compra en la Pollería</h1>
+    
+    <nav class="navbar navbar-expand-lg bg-light py-2 fixed-top" id="menu">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="IMG/logo-salazar.jpeg" alt="P.Salazar" width="90" height="84">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item" style="text-transform: uppercase;">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+
+                  <li class="nav-item" style="text-transform: uppercase;">
+                      <a class="nav-link active" href="Nuestros Productos.html">Productos</a>
+                  </li>
+
+                  <li class="nav-item" style="text-transform: uppercase;">
+                      <a class="nav-link active" href="Nosotros.html">Nosotros</a>
+                  </li>
+
+                  <li class="nav-item" style="text-transform: uppercase;">
+                      <a class="nav-link active" href="contacto.html">contacto</a>
+                  </li>
+                  <li class="nav-item" style="text-transform: uppercase;">
+                      <a class="nav-link active" href="Locales.html">Locales</a>
+                  </li>
+                  <li class="nav-item" style="text-transform: uppercase;">
+                      <a class="nav-link active" href="Promos y combos.html">Promos y Combos</a>
+                  </li>
+              </ul>
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="Buscar Productos" placeholder="Buscar Productos"
+                      aria-label="email">
+                  <a class="btn btn-primary" href="#" role="button">Pide Online</a>
+              </form>
+          </div>
+      </div>
+  </nav>
+
+
+   
+    <div class="row">
+      
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Pollo Entero">
+          <div class="card-body">
+            <h5 class="card-title">Pecho Brostear</h5>
+            <p class="card-text"> Delicio solo par ti</p>
+            <h6 class="text-danger">Precio: s/10</h6>
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="quantity1">Cantidad</label>
+              <input type="number" id="quantity1" class="form-control" value="1" min="1">
+            </div>
+            <button class="btn btn-primary w-100">Agregar al Carrito</button>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Medio Pollo">
+          <div class="card-body">
+            <h5 class="card-title">1/4 de pollo</h5>
+            <p class="card-text">Perfecto para una comida rápida y deliciosa.</p>
+            <h6 class="text-danger">Precio: s/9</h6>
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="quantity2">Cantidad</label>
+              <input type="number" id="quantity2" class="form-control" value="1" min="1">
+            </div>
+            <button class="btn btn-primary w-100">Agregar al Carrito</button>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Alitas de Pollo">
+          <div class="card-body">
+            <h5 class="card-title">Alitas de Pollo</h5>
+            <p class="card-text">Alitas jugosas y crujientes, ideales para cualquier ocasión.</p>
+            <h6 class="text-danger">Precio: s/13</h6>
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="quantity3">Cantidad</label>
+              <input type="number" id="quantity3" class="form-control" value="1" min="1">
+            </div>
+            <button class="btn btn-primary w-100">Agregar al Carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
